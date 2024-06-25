@@ -193,7 +193,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl">Available 24/7</h3>
             </div>
-            <p className="text-neutral">Here, you can discuss yours openly and honestly, without fear of judgment. We're here to listen and have a productive conversation. Let's get started!.</p>
+            <p className="text-neutral">Here, you can discuss yours openly and honestly, without fear of judgment. We&apos;re here to listen and have a productive conversation. Let&apos;s get started!.</p>
           </div>
           <div className="grid gap-y-2">
             <div className="flex items-center gap-x-6">
@@ -215,7 +215,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl">Provides a safe space</h3>
             </div>
-            <p className="text-neutral">You can express yourself freely and honestly, without judgment. We provide a safe space for everything you can't say to others. Share your story. Find comfort. Be heard..</p>
+            <p className="text-neutral">You can express yourself freely and honestly, without judgment. We provide a safe space for everything you can&apos;t say to others. Share your story. Find comfort. Be heard..</p>
           </div>
           <div className="grid gap-y-2">
             <div className="flex items-center gap-x-6">
@@ -229,7 +229,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl">Boost your confidence</h3>
             </div>
-            <p className="text-neutral">We will help you silence your inner critic and replace it with unshakeable confidence. Let's build you up, together..</p>
+            <p className="text-neutral">We will help you silence your inner critic and replace it with unshakeable confidence. Let&apos;s build you up, together..</p>
           </div>
         </section>
 
