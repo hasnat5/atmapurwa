@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Indie_Flower, Inter } from "next/font/google";
 import "./globals.css";
+import { NextUIProvider } from "@nextui-org/react";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
+const indie_flower = Indie_Flower({ subsets: ["latin"], weight: "400", variable: '--font-indie-flower' });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+      <body className={`${inter.variable} ${indie_flower.variable}`}>
+        <NextUIProvider>
+          {children}
+        </NextUIProvider>
+      </body>
+    </html >
   );
 }
